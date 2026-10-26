@@ -290,6 +290,26 @@ INSERT INTO public.galaxy VALUES (6, 'Pinwheel', 'Face-on spiral galaxy', 12000,
 -- Data for Name: moon; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
+INSERT INTO public.moon VALUES (1, 'Moon', 3, true, 'Earth moon', 3474);
+INSERT INTO public.moon VALUES (2, 'Phobos', 4, false, 'Mars moon', 22);
+INSERT INTO public.moon VALUES (3, 'Deimos', 4, false, 'Mars moon', 12);
+INSERT INTO public.moon VALUES (4, 'Io', 5, true, 'Jupiter moon', 3643);
+INSERT INTO public.moon VALUES (5, 'Europa', 5, true, 'Jupiter moon', 3122);
+INSERT INTO public.moon VALUES (6, 'Ganymede', 5, true, 'Jupiter moon', 5268);
+INSERT INTO public.moon VALUES (7, 'Callisto', 5, true, 'Jupiter moon', 4821);
+INSERT INTO public.moon VALUES (8, 'Amalthea', 5, false, 'Jupiter moon', 167);
+INSERT INTO public.moon VALUES (9, 'Himalia', 5, false, 'Jupiter moon', 140);
+INSERT INTO public.moon VALUES (10, 'Elara', 5, false, 'Jupiter moon', 80);
+INSERT INTO public.moon VALUES (11, 'Pasiphae', 5, false, 'Jupiter moon', 58);
+INSERT INTO public.moon VALUES (12, 'Titan', 6, true, 'Saturn moon', 5150);
+INSERT INTO public.moon VALUES (13, 'Enceladus', 6, true, 'Saturn moon', 504);
+INSERT INTO public.moon VALUES (14, 'Rhea', 6, true, 'Saturn moon', 1528);
+INSERT INTO public.moon VALUES (15, 'Dione', 6, true, 'Saturn moon', 1123);
+INSERT INTO public.moon VALUES (16, 'Tethys', 6, true, 'Saturn moon', 1062);
+INSERT INTO public.moon VALUES (17, 'Mimas', 6, true, 'Saturn moon', 396);
+INSERT INTO public.moon VALUES (18, 'Iapetus', 6, true, 'Saturn moon', 1469);
+INSERT INTO public.moon VALUES (19, 'Titania', 7, true, 'Uranus moon', 1578);
+INSERT INTO public.moon VALUES (20, 'Oberon', 7, true, 'Uranus moon', 1523);
 
 
 --
@@ -340,7 +360,7 @@ SELECT pg_catalog.setval('public.galaxy_galaxy_id_seq', 6, true);
 -- Name: moon_moon_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.moon_moon_id_seq', 1, false);
+SELECT pg_catalog.setval('public.moon_moon_id_seq', 20, true);
 
 
 --
